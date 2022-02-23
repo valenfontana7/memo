@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px)
+  }
+  100% {
+    transform: translateY(0px)
+  }
+}
+.alertadanger {
+  width: 60%;
+  height: 70px;
+  background: rgba(245, 58, 58, 0.822);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.alertamessage {
+  width: 70%;
+  height: 70px;
+  background: rgba(58, 245, 74, 0.822);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+/* POSTS */
+.posts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 830px;
+  margin-top: 1%;
+}
+.container {
+  background: #a5e5ee;
+  width: 50%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 3%;
+  padding-top: 1%;
+  border-radius: 10px;
+}
+.items {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-auto-rows: 340px;
+  background: white;
+  border-radius: 10px;
+}
+.itempost {
+  background: white;
+}
+.tasks.itempost {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  margin: 25px;
+  border-radius: 10px;
+  box-shadow: 0.3px 0.3px 5px 0.8px rgb(102, 102, 102);
+  background-image: url("./public/images/tareas.png");
+}
+.notes.itempost {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  margin: 25px;
+  border-radius: 10px;
+  background-image: url("./public/images/notas.png");
+}
+.articles.itempost {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  margin: 25px;
+  border-radius: 10px;
+  background-image: url("./public/images/articulos.png");
+}
+.links.itempost {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  margin: 25px;
+  border-radius: 10px;
+  background-image: url("./public/images/enlaces.png");
+}
+.itempost:hover {
+  color:#000;
+}
+.items:hover .itempost:not(:hover) {
+  opacity: .75;
+}

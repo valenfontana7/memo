@@ -1,0 +1,32 @@
+.component {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  height: 90%;
+  width: 100%;
+}
+.container {
+  height: 100%;
+  width: 35%;
+  box-shadow: 0.3px 0.3px 5px 0.6px black;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+.searchow {
+  border-radius: 10px;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  display: flex;
+  background: #a5e5ee;
+  justify-content: space-evenly;
+}
+.listow {
+  overflow-y: scroll;
+  height: 81.5%;
+  border-radius: 10px;
+  width: 100%;
+}
+.owner {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,8 @@
+.tag {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: white;
+  width: 20%;
+  box-shadow: 0.3px 0.3px 1px 1px black;
+  border-radius: 10px;
+  user-select: none;
+}
